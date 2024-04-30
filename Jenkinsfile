@@ -7,7 +7,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Ejecutar npm instal" 
-                sh 'npm install'
+                sh 'npm instal'
             }
         }
 
